@@ -1,0 +1,16 @@
+{
+    "Name": "ABMT2",
+    "BIDSVersion": "1.10.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Ashley Ptinis",
+        "Eric Earl",
+        "Dustin Moraczewski"
+    ],
+    "Curators": [
+        "Ashley Ptinis",
+        "Eric Earl",
+        "Dustin Moraczewski"
+    ]
+}
