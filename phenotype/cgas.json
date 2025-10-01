@@ -1,0 +1,20 @@
+{
+    "MeasurementToolMetadata": {
+        "Description": "Children’s Global Assessment Scale"
+    },
+    "participant_id": {
+        "Description": "BIDS participant identifier."
+    },
+    "session_id": {
+        "Description": "BIDS session identifier",
+        "Levels": {
+            "ses-cbt03": "Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
+            "ses-cbt08": "Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
+            "ses-cbt12": "Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT)."
+        }
+    },
+    "cgas_current_score": {
+        "Description": "CURRENT SCORE:",
+        "Derivative": "true"
+    }
+}

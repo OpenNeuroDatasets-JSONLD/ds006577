@@ -1,0 +1,1289 @@
+{
+    "MeasurementToolMetadata": {
+        "Description": "Pediatric Anxiety Rating Scale"
+    },
+    "participant_id": {
+        "Description": "BIDS participant identifier."
+    },
+    "session_id": {
+        "Description": "BIDS session identifier",
+        "Levels": {
+            "ses-cbt03": "Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
+            "ses-cbt08": "Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
+            "ses-cbt12": "Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT)."
+        }
+    },
+    "participate_group_acts_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "participate_group_acts_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "participate_group_acts_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fear_social_event_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fear_social_event_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fear_social_event_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "talk_stranger_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "talk_stranger_child": {
+        "Description": "Child",
+        "Levels": {
+            "0": "No",
+            "1": "Yes",
+            "9": "Question unanswered"
+        }
+    },
+    "talk_stranger_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fear_talk_phone_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fear_talk_phone_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fear_talk_phone_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "talk_infront_group_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "talk_infront_group_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "talk_infront_group_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_write_infront_ppl_parnt": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_write_infront_ppl_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_write_infront_ppl_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_eat_public_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "refuse_eat_public_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "refuse_eat_public_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "refuse_public_bathroom_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_public_bathroom_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_public_bathroom_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_change_gym_othrs_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_change_gym_othrs_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_change_gym_othrs_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "harm_attach_figure_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "harm_attach_figure_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "harm_attach_figure_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "harm_self_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "harm_self_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "harm_self_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "distress_separation_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "distress_separation_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "distress_separation_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fear_be_alone": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fear_be_alone_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fear_be_alone_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_go_school_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_go_school_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_go_school_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "physical_symp_separate_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "physical_symp_separate_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "physical_symp_separate_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_sleep_alone_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_sleep_alone_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_sleep_alone_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_sleep_away_home_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_sleep_away_home_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "refuse_sleep_away_home_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "nightmare_separate_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "nightmare_separate_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "nightmare_separate_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "clings_to_parent_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "clings_to_parent_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "clings_to_parent_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "excessive_worry_everyday_parnt": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "excessive_worry_everyday_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "excessive_worry_everyday_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "restless_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "restless_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "restless_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fatigue_easy_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fatigue_easy_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fatigue_easy_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "difficult_concentrate_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "difficult_concentrate_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "difficult_concentrate_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "irritable_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "irritable_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "irritable_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "muscle_tension_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "muscle_tension_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "muscle_tension_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "sleep_disturb_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "sleep_disturb_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "sleep_disturb_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fear_anticipate_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fear_anticipate_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "fear_anticipate_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "phobia_animal_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "phobia_animal_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "phobia_animal_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "phobia_environment_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "phobia_environment_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "phobia_environment_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "phobia_blood_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "phobia_blood_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "phobia_blood_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "phobia_situation_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "phobia_situation_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "phobia_situation_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "blushing_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "blushing_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "blushing_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "paralyzed_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "paralyzed_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "paralyzed_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "trembling_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "trembling_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "trembling_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "feel_dizzy_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "feel_dizzy_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "feel_dizzy_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "palpitation_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "palpitation_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "palpitation_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "difficult_breathe_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "difficult_breathe_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "difficult_breathe_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "chills_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "chills_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "chills_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "sweating_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "sweating_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "sweating_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "nausea_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "nausea_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "nausea_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "urge_go_bathroom_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "urge_go_bathroom_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "urge_go_bathroom_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "chest_pain_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "chest_pain_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "chest_pain_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "paresthesias_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "paresthesias_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "paresthesias_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "problem_eat_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "problem_eat_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "problem_eat_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No",
+            "9": "Question unanswered"
+        }
+    },
+    "cry_spells_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "cry_spells_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "cry_spells_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "temper_tantrums_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "temper_tantrums_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "temper_tantrums_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "flee_anxiety_situation_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "flee_anxiety_situation_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "flee_anxiety_situation_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "distance_frm_ppl_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "distance_frm_ppl_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "distance_frm_ppl_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "fear_lose_control_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "fear_lose_control_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "fear_lose_control_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "derealization_parent": {
+        "Description": "Parent",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "derealization_child": {
+        "Description": "Child",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "derealization_rater": {
+        "Description": "Rater",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "anxiety_symptoms_number": {
+        "Description": "1. Overall Number of Anxiety Symptoms (past week only)\t",
+        "Levels": {
+            "0": "No symptoms",
+            "1": "1 symptom",
+            "2": "2-3 symptoms",
+            "3": "4-6 symptoms",
+            "4": "7-10 symptoms",
+            "5": "More than 10 symptoms",
+            "8": "Not applicable",
+            "9": "Does not know"
+        }
+    },
+    "anxiety_symptoms_freq": {
+        "Description": "2. Overall Frequency of Anxiety Symptoms",
+        "Levels": {
+            "0": "None",
+            "1": "1-2 days per week",
+            "2": "3-4 days per week",
+            "3": "5-6 days per week (not daily)",
+            "4": "Every day",
+            "5": "Several hours every day",
+            "8": "Not applicable",
+            "9": "Does not know"
+        }
+    },
+    "anxiety_feeling_severity": {
+        "Description": "3. Overall Severity of Anxiety Feelings (past week only)  ",
+        "Levels": {
+            "0": "None. No anxious symptoms.",
+            "1": "Minimal. Very transient discomfort.  Not clinically significant.",
+            "2": "Mild. Transient discomfort that is mildly disturbing. Borderline clinical significance. Intermediate between 1 & 3.",
+            "3": "Moderate. Clearly nervous when anticipating or confronting the anxiety-provoking situation(s). Often unable to overcome these feelings. These feelings impact on well-being.",
+            "4": "Severe. Very distressed when anxious or when anticipating or confronting the anxiety-provoking situation(s). Usually unable to overcome this feeling. Intermediate between 3 & 5.",
+            "5": "Extreme. Feels wretched when anticipating or confronting anxiety-provoking situation(s). Often totally or almost totally unable to overcome this fear. Very marked impact on well-being.",
+            "8": "Not applicable",
+            "9": "Does not know"
+        }
+    },
+    "anxiety_physical_symp_severe": {
+        "Description": "4. Overall Severity of Physical Symptoms of Anxiety  ",
+        "Levels": {
+            "0": "None. No physical symptoms",
+            "1": "Minimal. Very transient physical symptoms of anxiety. Symptoms are not or are hardly noticeable       by others. Not clinically significant.",
+            "2": "Mild. Few physical symptoms: no lasting impact. Borderline clinical significance. Intermediate between 1 & 3.",
+            "3": "Moderate. Persistent physical symptoms of anxiety especially during exposure to the feared situation(s). Symptoms are noticeable by others and significantly interfere with his/her ability to function in the situation.",
+            "4": "Severe. Marked physical symptoms of substantial clinical significance. Intermediate between 3 & 5.",
+            "5": "Extreme. Severe and persistent physical symptoms of anxiety especially during exposure to the        feared situation(s). Symptoms are very obvious to others and often result in inability to        function in the situation.",
+            "8": "Not applicable",
+            "9": "Does not know"
+        }
+    },
+    "anxiety_situation_avoid": {
+        "Description": "5. Overall Avoidance of Anxiety-Provoking Situations (past week only) ",
+        "Levels": {
+            "0": "None. Does not avoid the anxiety-provoking situation(s).",
+            "1": "Minimal. Very occasionally avoids the anxiety-provoking situation(s). Avoided situation(s) is/are not critical to his/her well-being.",
+            "2": "Mild. Avoids anxiety-provoking situation(s) some of the time but no important situation is consistently avoided. Borderline clinical significance. Intermediate between 1 and 3.",
+            "3": "Moderate. Avoids anxiety-provoking situation(s) frequently. At least one important situation is avoided.",
+            "4": "Severe. Avoids anxiety-provoking situation most of the time or more than one important situation is consistently avoided. Intermediate between 3 & 5.",
+            "5": "Extreme. Avoids all or almost all anxiety-provoking situations.",
+            "8": "Not applicable",
+            "9": "Does not know"
+        }
+    },
+    "interfere_fmly_relationship": {
+        "Description": "6. Interference with Family Relationships and/or Performance at Home",
+        "Levels": {
+            "0": "None. No interference.",
+            "1": "Minimal. Very transient interference. No impact on relationships with family members or performance (tasks etc.) at home.",
+            "2": "Mild. Slight impact on relationships with family members and performance at home. Borderline clinical significance. Intermediate between 1 and 3.",
+            "3": "Moderate. Clear interference. Either performance of tasks at home or freq. or qual. of interaction w/ family members is affected: s/he might withdraw from interaction might be avoided/rejected by family members or might have many conflicts w/ them.",
+            "4": "Severe. Marked interference in relationships with family members and/or performance at home. Of substantial clinical significance. Intermediate between 3 and 5.",
+            "5": "Extreme. Totally or almost totally unable to maintain appropriate family relationships and/or to function at home.",
+            "8": "Not applicable",
+            "9": "Does not know"
+        }
+    },
+    "interfere_peer_adult_relation": {
+        "Description": "7. Interference with Peer and Adult Relationships and/or Performance Outside of Home.  ",
+        "Levels": {
+            "0": "None. No interference.",
+            "1": "Minimal. Very transient interference. No impact on relationships with peers or teachers or other adults outside of the home. No impact on functioning outside of home e.g. attending and performing group activities.",
+            "2": "Mild. Slight impact on relationships or performance outside of the home. Borderline clinical significance. Intermediate between 1 and 3.",
+            "3": "Moderate. Clear interference. Either performance outside the home or frequency or quality of peer or adult interactions is affected: s/he might withdraw from interaction might be avoided/rejected by peers or adults or might have conflicts w/ them.",
+            "4": "Severe: Marked interference in relationships with peers or adults outside of home and/or performance outside of home. Of substantial clinical significance. Intermediate between 3 and 5.",
+            "5": "Extreme: Totally or almost totally unable to maintain appropriate peer or adult relationships and/or to function outside of home.",
+            "8": "Not applicable",
+            "9": "Does not know"
+        }
+    },
+    "pars_rater_score": {
+        "Description": "Pediatric Anxiety Rating Scale (PARS) Rater score",
+        "Derivative": "true"
+    }
+}

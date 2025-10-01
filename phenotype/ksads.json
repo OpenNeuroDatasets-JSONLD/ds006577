@@ -1,0 +1,357 @@
+{
+    "MeasurementToolMetadata": {
+        "Description": "Kiddie Schedule for Affective Disorders and Schizophrenia"
+    },
+    "participant_id": {
+        "Description": "BIDS participant identifier."
+    },
+    "session_id": {
+        "Description": "BIDS session identifier",
+        "Levels": {
+            "ses-screening": "Tabular phenotypic data collection screening session for subject diagnosis."
+        }
+    },
+    "k_sads_pl_mdd_ongoing": {
+        "Description": "1. Major Depression",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_mania_ongoing": {
+        "Description": "2. Mania",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_hypomania_ongoing": {
+        "Description": "3. Hypomania",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_psychosis_ongoing": {
+        "Description": "4. Psychosis",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_panic_disorder_ongoing": {
+        "Description": "5. Panic Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_sad_ongoing": {
+        "Description": "6. Separation Anxiety Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_avoid_disorder_ongoing": {
+        "Description": "7. Avoidant Disorder/Social Phobia",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_agoraphobia_ongoing": {
+        "Description": "8. Agoraphobia/ Specific Phobia",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_anxiety_ongoing": {
+        "Description": "9. Generalized Anxiety Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_ocd_ongoing": {
+        "Description": "10. Obsessive Compulsive Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_enuresis_ongoing": {
+        "Description": "11. Enuresis",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_encopresis_ongoing": {
+        "Description": "12. Encopresis",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_anorexia_ongoing": {
+        "Description": "13. Anorexia Nervosa",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_adhd_ongoing": {
+        "Description": "14. ADHD",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_odd_ongoing": {
+        "Description": "15. Oppositional Defiant Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_dmdd_ongoing": {
+        "Description": "16. Disruptive Mood Dysregulation Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_conduct_ongoing": {
+        "Description": "16. Conduct Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_tic_ongoing": {
+        "Description": "17. Tic Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_smoke_ongoing": {
+        "Description": "18. Cigarette Use",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_alcohol_abuse_ongoing": {
+        "Description": "19. Alcohol Abuse",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_substance_abuse_ongoing": {
+        "Description": "20. Substance Abuse",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_ptsd_ongoing": {
+        "Description": "21. Post-Traumatic Stress Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_mutism_ongoing": {
+        "Description": "23. Selective Mutism",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_othr_ongoing": {
+        "Description": "22. Other",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_mdd_curr": {
+        "Description": "1. Major Depression",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_mania_curr": {
+        "Description": "2. Mania",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_hypomania_curr": {
+        "Description": "3. Hypomania",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_psychosis_curr": {
+        "Description": "4. Psychosis",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_panic_disorder_curr": {
+        "Description": "5. Panic Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_sad_curr": {
+        "Description": "6. Separation Anxiety Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_avoid_disorder_curr": {
+        "Description": "7. Avoidant Disorder/Social Phobia",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_agoraphobia_curr": {
+        "Description": "8. Agoraphobia/ Specific Phobia",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_anxiety_curr": {
+        "Description": "9. Overanxious/ Generalized Anxiety",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_ocd_curr": {
+        "Description": "10. Obsessive Compulsive Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_enuresis_curr": {
+        "Description": "11. Enuresis",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_encopresis_curr": {
+        "Description": "12.  Encopresis",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_anorexia_curr": {
+        "Description": "13. Anorexia Nervosa",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_adhd_curr": {
+        "Description": "14. ADHD",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_odd_curr": {
+        "Description": "15. Oppositional Defiant Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_dmdd_curr": {
+        "Description": "16. Disruptive Mood Dysregulation Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_conduct_curr": {
+        "Description": "16. Conduct Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_tic_curr": {
+        "Description": "17. Tic Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_smoke_curr": {
+        "Description": "18. Cigarette Use",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_alcohol_abuse_curr": {
+        "Description": "19. Alcohol Abuse",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_substance_abuse_curr": {
+        "Description": "20. Substance Abuse",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_ptsd_curr": {
+        "Description": "21. Post-Traumatic Stress Disorder",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_mutism_curr": {
+        "Description": "23. Selective Mutism",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "k_sads_pl_othr_curr": {
+        "Description": "22. Other",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "ksads_dx": {
+        "Description": "KSADS diagnosis",
+        "Levels": {
+            "0": "Healthy Volunteer (no diagnosis).",
+            "1": "Anxiety diagnosis."
+        }
+    }
+}
