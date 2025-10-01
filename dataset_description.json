@@ -32,5 +32,6 @@
     ],
     "EthicsApprovals": [
         "Approval was obtained from the ethics committee of the National Institute of Mental Health (Protocol 01-M-0192)"
-    ]
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds006577.v1.0.0"
 }
