@@ -1,0 +1,124 @@
+{
+    "MeasurementToolMetadata": {
+        "Description": "Mood and Feelings Questionnaire – Child version"
+    },
+    "participant_id": {
+        "Description": "BIDS participant identifier."
+    },
+    "session_id": {
+        "Description": "BIDS session identifier",
+        "Levels": {
+            "ses-cbt03": "Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
+            "ses-cbt08": "Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
+            "ses-cbt12": "Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT)."
+        }
+    },
+    "mfq_s_unhappy": {
+        "Description": "1. I felt miserable or unhappy.",
+        "Levels": {
+            "0": "Not True",
+            "1": "Sometimes",
+            "2": "TRUE"
+        }
+    },
+    "mfq_s_didnt_enjoy": {
+        "Description": "2. I didn't enjoy anything at all.",
+        "Levels": {
+            "0": "Not True",
+            "1": "Sometimes",
+            "2": "TRUE"
+        }
+    },
+    "mfq_s_tired": {
+        "Description": "3. I felt so tired I just sat around and did nothing.",
+        "Levels": {
+            "0": "Not True",
+            "1": "Sometimes",
+            "2": "TRUE"
+        }
+    },
+    "mfq_s_restless": {
+        "Description": "4. I was very restless.",
+        "Levels": {
+            "0": "Not True",
+            "1": "Sometimes",
+            "2": "TRUE"
+        }
+    },
+    "mfq_s_no_good": {
+        "Description": "5. I felt I was no good anymore.",
+        "Levels": {
+            "0": "Not True",
+            "1": "Sometimes",
+            "2": "TRUE"
+        }
+    },
+    "mfq_s_cried": {
+        "Description": "6. I cried a lot.",
+        "Levels": {
+            "0": "Not True",
+            "1": "Sometimes",
+            "2": "TRUE"
+        }
+    },
+    "mfq_s_hard_think": {
+        "Description": "7. I found it hard to think properly or concentrate.",
+        "Levels": {
+            "0": "Not True",
+            "1": "Sometimes",
+            "2": "TRUE"
+        }
+    },
+    "mfq_s_hate_myself": {
+        "Description": "8. I hated myself.",
+        "Levels": {
+            "0": "Not True",
+            "1": "Sometimes",
+            "2": "TRUE"
+        }
+    },
+    "mfq_s_bad_person": {
+        "Description": "9. I was a bad person.",
+        "Levels": {
+            "0": "Not True",
+            "1": "Sometimes",
+            "2": "TRUE"
+        }
+    },
+    "mfq_s_lonely": {
+        "Description": "10. I felt lonely.",
+        "Levels": {
+            "0": "Not True",
+            "1": "Sometimes",
+            "2": "TRUE"
+        }
+    },
+    "mfq_s_nobody_love": {
+        "Description": "11. I thought nobody really loved me.",
+        "Levels": {
+            "0": "Not True",
+            "1": "Sometimes",
+            "2": "TRUE"
+        }
+    },
+    "mfq_s_good_othr_kid": {
+        "Description": "12. I thought I could never be as good as other kids.",
+        "Levels": {
+            "0": "Not True",
+            "1": "Sometimes",
+            "2": "TRUE"
+        }
+    },
+    "mfq_s_everthing_wrong": {
+        "Description": "13. I did everything wrong.",
+        "Levels": {
+            "0": "Not True",
+            "1": "Sometimes",
+            "2": "TRUE"
+        }
+    },
+    "mfq_s_child_total_score": {
+        "Description": "Mood and Feelings Questionnaire – Child version Total Score",
+        "Derivative": "true"
+    }
+}

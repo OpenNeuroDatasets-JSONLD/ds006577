@@ -1,0 +1,403 @@
+{
+    "MeasurementToolMetadata": {
+        "Description": "Screen for Child Anxiety Related Disorders – Child version"
+    },
+    "participant_id": {
+        "Description": "BIDS participant identifier."
+    },
+    "session_id": {
+        "Description": "BIDS session identifier",
+        "Levels": {
+            "ses-cbt03": "Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
+            "ses-cbt08": "Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
+            "ses-cbt12": "Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT)."
+        }
+    },
+    "scared_breathe": {
+        "Description": "1. When I feel frightened it is hard to breathe.",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_headache_school": {
+        "Description": "2. I get headaches when I am at school.",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_dislike_strangers": {
+        "Description": "3. I don¬ít like to be with people I don¬ít know well.  ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_sleep_away_home": {
+        "Description": "4. I get scared if I sleep away from home.   ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_like_me": {
+        "Description": "5. I worry about other people liking me.    ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_pass_out": {
+        "Description": "6. When I get frightened I feel like passing out. ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_nervous": {
+        "Description": "7. I am nervous. ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_follow_parent": {
+        "Description": "8. I follow my mother or father wherever they go. ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_look_nervous": {
+        "Description": "9. People tell me that I look nervous.  ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_nervous_around_stranger": {
+        "Description": "10. I feel nervous with people I don¬ít know well. ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_stomachache_school": {
+        "Description": "11. I get stomachaches at school.  ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_feel_crazy": {
+        "Description": "12. When I get frightened I feel like I am going crazy. ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_sleep_alone": {
+        "Description": "13. I worry about sleeping alone.      ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_not_as_good": {
+        "Description": "14. I worry about being as good as other kids. ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_not_real": {
+        "Description": "15. When I get frightened I feel like things are not real.",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_nightmare_parents": {
+        "Description": "16. I have nightmares about something bad happening to my parents.",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_school": {
+        "Description": "17. I worry about going to school.   ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_hr_fast": {
+        "Description": "18. When I get frightened my heart beats fast.",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_shaky": {
+        "Description": "19. I get shaky.   ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_nightmare": {
+        "Description": "20. I have nightmares about something bad happening to me. ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_things_work_out": {
+        "Description": "21. I worry about things working out for me. ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_sweat": {
+        "Description": "22. When I get frightened I sweat a lot.   ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_worry": {
+        "Description": "23. I am a worrier.",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_no_reason": {
+        "Description": "24. I get really frightened for no reason at all.    ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_alone_at_home": {
+        "Description": "25. I am afraid to be alone in the house.",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_hard_to_talk": {
+        "Description": "26. It is hard for me to talk with people I don¬ít know well. ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_choke": {
+        "Description": "27. When I get frightened I feel like I am choking. ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_worry_too_much": {
+        "Description": "28. People tell me that I worry too much. ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_away_from_family": {
+        "Description": "29. I don¬ít like to be away from my family.",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_panic_attack": {
+        "Description": "30. I am afraid of having anxiety (or panic) attacks. ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_worry_parents": {
+        "Description": "31. I worry that something bad might happen to my parents.",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_shy_strangers": {
+        "Description": "32. I feel shy with people I don¬ít know well.  ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_future": {
+        "Description": "33. I worry about what is going to happen in the future.",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_throw_up": {
+        "Description": "34. When I get frightened I feel like throwing up.",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_how_well_i_do": {
+        "Description": "35. I worry about how well I do things. ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_go_to_school": {
+        "Description": "36. I am scared to go to school. ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_past": {
+        "Description": "37. I worry about things that have already happened.  ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_dizzy": {
+        "Description": "38. When I get frightened I feel dizzy.   ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_others_watch_me": {
+        "Description": "39. I feel nervous when I am with other children or adults and have to do something while they watch me (for example: read aloud speak play a game play a sport.) ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_party": {
+        "Description": "40. I feel nervous about going to parties dances or any place where there will be people I don't know well.",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_shy": {
+        "Description": "41. I am shy.  ",
+        "Levels": {
+            "0": "Not True or Hardly Ever True",
+            "1": "Somewhat True or Sometimes True",
+            "2": "Very True or Often True"
+        }
+    },
+    "scared_ch_total_score": {
+        "Description": "SUM of all questions with mean value substituted for up to two missing responses.",
+        "Derivative": "true"
+    },
+    "scared_ch_panic_or_somatic_complete": {
+        "Description": "Are all 13 questions answered?",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "scared_ch_panic_or_somatic": {
+        "Description": "SUM of the following 13 items: (1,6,9,12,15,18,19,22,24,27,30,34,38) with mean value substituted for up to two missing responses.",
+        "Derivative": "true"
+    },
+    "scared_ch_generalized_anx_disordr_complete": {
+        "Description": "Are all nine questions answered?",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "scared_ch_generalized_anx_disordr": {
+        "Description": "SUM of the following 9 items: (5,7,14,21,23,28,33,35,37) with mean value substituted for up to two missing responses.",
+        "Derivative": "true"
+    },
+    "scared_ch_separation_anx_disorder_complete": {
+        "Description": "Are all eight questions answered?",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "scared_ch_separation_anx_disorder": {
+        "Description": "SUM of the following 8 items: (4,8,13,16,20,25,29,31) with mean value substituted for up to two missing responses.",
+        "Derivative": "true"
+    },
+    "scared_ch_social_anxiety_disorder_complete": {
+        "Description": "Are all seven questions answered?",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "scared_ch_social_anxiety_disorder": {
+        "Description": "SUM of the following 7 items: (3,10,26,32,39,40,41) with mean value substituted for up to two missing responses.",
+        "Derivative": "true"
+    },
+    "scared_ch_school_avoidance_complete": {
+        "Description": "Are all four questions answered?",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "scared_ch_school_avoidance": {
+        "Description": "SUM of the following 4 items: (2,11,17,36) with mean value substituted for up to two missing responses.",
+        "Derivative": "true"
+    }
+}

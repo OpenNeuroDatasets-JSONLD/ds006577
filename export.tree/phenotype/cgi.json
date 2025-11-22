@@ -1,0 +1,30 @@
+{
+    "MeasurementToolMetadata": {
+        "Description": "Clinical Global Impressions Scale"
+    },
+    "participant_id": {
+        "Description": "BIDS participant identifier."
+    },
+    "session_id": {
+        "Description": "BIDS session identifier",
+        "Levels": {
+            "ses-cbt03": "Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
+            "ses-cbt08": "Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
+            "ses-cbt12": "Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT)."
+        }
+    },
+    "improvement": {
+        "Description": "2.  Compared to the subject's condition prior to treatment how would you evaluate him or her now over the previous week?",
+        "Levels": {
+            "0": "Not Done",
+            "1": "Completely Recovered",
+            "2": "Much Improved",
+            "3": "Improved",
+            "4": "Slightly Improved",
+            "5": "Unchanged",
+            "6": "Slightly Worse",
+            "7": "Worse",
+            "8": "Much Worse"
+        }
+    }
+}
