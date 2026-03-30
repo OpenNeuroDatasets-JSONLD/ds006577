@@ -1,12 +1,37 @@
 {
     "participant_id": {
-        "Description": "BIDS participant identifier."
+        "Description": "BIDS participant identifier.",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:ParticipantID",
+                "Label": "Participant ID"
+            },
+            "VariableType": "Identifier"
+        }
     },
     "sex": {
         "Description": "Biological sex assigned at birth.",
         "Levels": {
             "MALE": "Male",
             "FEMALE": "Female"
+        },
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Sex",
+                "Label": "Sex"
+            },
+            "VariableType": "Categorical",
+            "Levels": {
+                "FEMALE": {
+                    "TermURL": "snomed:248152002",
+                    "Label": "Female"
+                },
+                "MALE": {
+                    "TermURL": "snomed:248153007",
+                    "Label": "Male"
+                }
+            },
+            "MissingValues": []
         }
     },
     "race": {
@@ -78,42 +103,42 @@
         }
     },
     "cgas_cbt03": {
-        "Description": "Presence of Children’s Global Assessment Scale (CGAS) asessment in Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of Children\u2019s Global Assessment Scale (CGAS) asessment in Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
         }
     },
     "cgas_cbt08": {
-        "Description": "Presence of Children’s Global Assessment Scale (CGAS) asessment in Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of Children\u2019s Global Assessment Scale (CGAS) asessment in Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
         }
     },
     "cgas_cbt12": {
-        "Description": "Presence of Children’s Global Assessment Scale (CGAS) asessment in Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of Children\u2019s Global Assessment Scale (CGAS) asessment in Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
         }
     },
     "mfqc_cbt03": {
-        "Description": "Presence of Mood and Feelings Questionnaire – Child version (MFQC) asessment in Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of Mood and Feelings Questionnaire \u2013 Child version (MFQC) asessment in Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
         }
     },
     "mfqc_cbt08": {
-        "Description": "Presence of Mood and Feelings Questionnaire – Child version (MFQC) asessment in Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of Mood and Feelings Questionnaire \u2013 Child version (MFQC) asessment in Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
         }
     },
     "mfqc_cbt12": {
-        "Description": "Presence of Mood and Feelings Questionnaire – Child version (MFQC) asessment in Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of Mood and Feelings Questionnaire \u2013 Child version (MFQC) asessment in Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
@@ -141,66 +166,126 @@
         }
     },
     "scared_child_cbt03": {
-        "Description": "Presence of Screen for Child Anxiety Related Disorders – Child version (SCARED CHILD) asessment in Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of Screen for Child Anxiety Related Disorders \u2013 Child version (SCARED CHILD) asessment in Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
         }
     },
     "scared_child_cbt08": {
-        "Description": "Presence of Screen for Child Anxiety Related Disorders – Child version (SCARED CHILD) asessment in Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of Screen for Child Anxiety Related Disorders \u2013 Child version (SCARED CHILD) asessment in Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
         }
     },
     "scared_child_cbt12": {
-        "Description": "Presence of Screen for Child Anxiety Related Disorders – Child version (SCARED CHILD) asessment in Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of Screen for Child Anxiety Related Disorders \u2013 Child version (SCARED CHILD) asessment in Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
         }
     },
     "scared_parent_cbt03": {
-        "Description": "Presence of Screen for Child Anxiety Related Disorders – Parent version (SCARED PARENT) asessment in Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of Screen for Child Anxiety Related Disorders \u2013 Parent version (SCARED PARENT) asessment in Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
         }
     },
     "scared_parent_cbt08": {
-        "Description": "Presence of Screen for Child Anxiety Related Disorders – Parent version (SCARED PARENT) asessment in Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of Screen for Child Anxiety Related Disorders \u2013 Parent version (SCARED PARENT) asessment in Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
         }
     },
     "scared_parent_cbt12": {
-        "Description": "Presence of Screen for Child Anxiety Related Disorders – Parent version (SCARED PARENT) asessment in Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of Screen for Child Anxiety Related Disorders \u2013 Parent version (SCARED PARENT) asessment in Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
         }
     },
     "staic_cbt03": {
-        "Description": "Presence of State-Trait Anxiety Inventory – Child version (STAIC) asessment in Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of State-Trait Anxiety Inventory \u2013 Child version (STAIC) asessment in Tabular phenotypic data collection session after 3 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
+        },
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Assessment",
+                "Label": "Assessment Tool"
+            },
+            "VariableType": "Collection",
+            "IsPartOf": {
+                "TermURL": "snomed:273830002",
+                "Label": "Spielberger state-trait anxiety inventory"
+            },
+            "MissingValues": [
+                "n/a",
+                "N/A",
+                "na",
+                "NA",
+                "nan",
+                "NaN",
+                ""
+            ]
         }
     },
     "staic_cbt08": {
-        "Description": "Presence of State-Trait Anxiety Inventory – Child version (STAIC) asessment in Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of State-Trait Anxiety Inventory \u2013 Child version (STAIC) asessment in Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
+        },
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Assessment",
+                "Label": "Assessment Tool"
+            },
+            "VariableType": "Collection",
+            "IsPartOf": {
+                "TermURL": "snomed:273830002",
+                "Label": "Spielberger state-trait anxiety inventory"
+            },
+            "MissingValues": [
+                "n/a",
+                "N/A",
+                "na",
+                "NA",
+                "nan",
+                "NaN",
+                ""
+            ]
         }
     },
     "staic_cbt12": {
-        "Description": "Presence of State-Trait Anxiety Inventory – Child version (STAIC) asessment in Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT).",
+        "Description": "Presence of State-Trait Anxiety Inventory \u2013 Child version (STAIC) asessment in Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT).",
         "Levels": {
             "0": "Absent",
             "1": "Present"
+        },
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Assessment",
+                "Label": "Assessment Tool"
+            },
+            "VariableType": "Collection",
+            "IsPartOf": {
+                "TermURL": "snomed:273830002",
+                "Label": "Spielberger state-trait anxiety inventory"
+            },
+            "MissingValues": [
+                "n/a",
+                "N/A",
+                "na",
+                "NA",
+                "nan",
+                "NaN",
+                ""
+            ]
         }
     },
     "cgi_cbt12": {
